@@ -1,0 +1,104 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background: #f0ead2;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+h1 {
+  color: #6c584c;
+  text-align: center;
+  font-weight: 800;
+  font-size: 3rem;
+  margin: 2rem;
+}
+input,
+button {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.2rem;
+  margin: 1rem;
+  padding: 1rem;
+  background: #f0ead2;
+  border: none;
+  border-radius: 1rem;
+  color: #6c584c;
+}
+button{
+    font-weight: 600;
+}
+button:hover {
+  background: #a98467;
+  color: #f0ead2;
+  transition: 0.3s;
+  cursor: pointer;
+}
+option {
+  background: #f0ead2;
+  border: none;
+  border-radius: 50%;
+}
+.select-container:focus,
+input:focus {
+  outline: 2px solid #a98467;
+}
+.currency {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+}
+form {
+  background: #dde5b6;
+  padding: 2rem;
+  border-radius: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+i {
+  font-size: 2.2rem;
+  color: #ADC178;
+}
+.select-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 8rem;
+  gap: 1rem;
+  border-radius: 1rem;
+  border: 1px solid lightgray;
+  background: #f0ead2;
+  padding: 0.5rem 1rem;
+}
+.select-container select {
+  font-size: 1rem;
+  background: #f0ead2;
+  color: #6c584c;
+  width: auto;
+  border: none;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+.select-container img {
+  max-width: 3rem;
+}
+#exchange-rate {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    color: #a98467;
+}
